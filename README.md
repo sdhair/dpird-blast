@@ -2,23 +2,23 @@
 
 Local blast scripts for in-house DPIRD use with unix box @bioinf (16 threads).
 
-### run-blastn.sh
+#### run-blastn.sh
 
 Local nucleotide blast search (megablast task) returning -num_alignments 1.
 
-### run-blastn-nal         
+#### run-blastn-nal         
 
 Local nucleotide blast searh (megablast task) with the option to select -num_alignments.
 
-### run-blastn-pid         
+#### run-blastn-pid         
 
 Local nucleotide blast search (blastn task - to allow less similar matches) with the option to select -perc_identity (returning -num_alignments 1).
 
-### run-blast+                 
+#### run-blast+                 
 
 Local nucleotide blast search (blastn task - to allow less similar matches) with the options to select -num_alignments and -perc_identity.
 
-### Example usage
+#### Example usage
 
         $./run-blastn.sh
         
