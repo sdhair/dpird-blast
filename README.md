@@ -1,6 +1,6 @@
 ## dpird-blast
 
-Local blast scripts for in-house DPIRD with unix box @bioinf (16 threads).
+Local blast scripts for in-house DPIRD use with unix box @bioinf (16 threads).
 
 -outfmt 0, 5 & 11 (.txt, .xml & .asn)
 
@@ -19,6 +19,21 @@ Local nucleotide blast search (blastn task - to allow less similar matches) with
 ### run-blast+                 
 
 Local nucleotide blast search (blastn task - to allow less similar matches) with the options to select -num_alignments and -perc_identity.
+
+### Example usage
+
+        $run-blastn.sh
+
+1.      Copy the file containing your sequences to the 'raw_data' directory within the 'local_blast' directory on the desktop
+2.      Open the terminal by pressing ctl-alt-t
+3.      Run BLAST search by entering 'run-blastn' command
+4.      Enter the file name of your sequences including the extension eg. 'test_sequences.fasta'
+5.      Enter your desired output file name eg. 'blast_results'
+6.      Once completed your output files (.asn, .xml & .txt) will be located in the 'results' subdirectory
+
+        .asn = BLAST archive file format
+        .xml = for importing to Geneious &/or MEGAN
+        .txt = Simple test file to visualise sequence alignments
 
 Find us on [GitHub](https://github.com/sdhair/dpird-wf/).
 
