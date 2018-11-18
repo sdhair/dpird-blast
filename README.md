@@ -20,7 +20,7 @@ Local nucleotide blast search (blastn task - to allow less similar matches) with
 
 ### Example usage
 
-        $run-blastn.sh
+        $./run-blastn.sh
         
         .asn = BLAST archive file format
         .xml = for importing to Geneious &/or MEGAN
